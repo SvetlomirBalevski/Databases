@@ -58,10 +58,8 @@
 
 # Course Evaluation
 
-- **Practical exam on SQL** - up to `30%`
-- **Course Project** - up to `50%`
-- **Homework** - up to `10%`
-- **Homework peer review** - up to `5%`
+- **Practical exam on SQL** - up to `40%`
+- **Course Project** - up to `55%`
 - **Attendance** - up to `5%`
 
 # Pass / Excellence / Fail Criteria
