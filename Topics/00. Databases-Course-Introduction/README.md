@@ -16,8 +16,7 @@
 
 -  What's Coming Next in the Academy?
 -  The Databases Course Program
--  The Trainers Team
--  Exams and Evaluation
+-  Course Evaluation
 -  Resources for the Course
 
 <!-- section start -->
@@ -29,13 +28,14 @@
 # What's Coming Next?
 * Databases & SQL Course
   - Lectures
-    - Mon, Tue, Wed, Thu, Fri
+    - Mon, Wed, Fri
     - Start at 11:00
-  - Practical exam after 4 weeks
-    - On the 08 November 2016
-    - Native queries with SQL
-    - Parsing JSON and XML
-    - Using Entity framework
+  - Practical exam on SQL
+    -   After 2 weeks
+    -   Plain SQL, no .NET, no ORMs
+  - Course project
+    -  MS SQL Server, PostgreSQL
+    -  XML, JSON
 
 <!-- section start -->
 <!-- attr: {class: 'slide-section', id: 'databases-program', showInPresentation: true} -->
@@ -45,15 +45,11 @@
 <!-- attr: { hasScriptWrapper:true, style: 'font-size: 0.9em' } -->
 # The Databases:<br/> Course Program
 - Parsing `XML` and `JSON` with **.NET**
-- **MySQL**, **MS SQL Server**
+- **PostgreSQL**, **MS SQL Server** and **SQLite**
   - Data modeling
   - Native queries with `SQL`
-- **ADO.NET** brief overview
 - **Entity framework**
   - **Database-first** and **code-first** approaches
-- Database **performance**
-- **Transactions**
-- **NoSQL** Databases: **MongoDB** and **Redis**
 
 <!-- section start -->
 <!-- attr: {id: 'evaluation', class: 'slide-section', showInPresentation: true} -->
@@ -62,11 +58,10 @@
 
 # Course Evaluation
 
-- **Practical exam** - up to `55%`
-- **Practical exam peer review** - up to `10%`
+- **Practical exam on SQL** - up to `30%`
+- **Course Project** - up to `50%`
 - **Homework** - up to `10%`
 - **Homework peer review** - up to `5%`
-- **Team work** - up to `15%`
 - **Attendance** - up to `5%`
 
 # Pass / Excellence / Fail Criteria
@@ -123,11 +118,10 @@
 # Required Software
 
 -  Software needed for this course:
-	-  Microsoft `Visual Studio 2015`
-	-  Microsoft `SQL Server 2014` Developer with Service Pack 1 and Developer Tools
-	-  `MySQL Community Server 5.x+`
-		-  MySQL Workbench
-	-  `MongoDB` and `Redis`
+    -   Windows 7, 8 or 10
+	-   Microsoft `Visual Studio 2015`
+	-   Microsoft `SQL Server 2016` 
+    -   PostgreSQL
 
 <!-- section start -->
 <!-- attr: {id: 'questions', class: 'slide-section', showInPresentation: true} -->
