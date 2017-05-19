@@ -12,7 +12,7 @@
 <!-- section start -->
 <!-- attr: {id: 'table-of-contents'} -->
 # Table of Contents
-*  `SQL Server 2014` – Intro
+*  `SQL Server 2016` – Intro
 	*	SQL Server Services
 	*	Types of Databases
 	*	Authentication and Permissions
@@ -49,9 +49,9 @@
 
 <!-- section start -->
 <!-- attr: {id: 'sql-server-services', class: 'slide-section'} -->
-# Services of SQL Server 2014
+# Services of SQL Server 2016
 
-# Services of SQL Server 2014
+# Services of SQL Server 2016
 *	SQL Server – the database engine
 	*	Responsible for database management, data storage, queries, data manipulation, data integrity, transactions, locking, users, security
 	*	Executes SQL / T-SQL queries
@@ -60,7 +60,7 @@
 	*	Monitors SQL Server
 	*	Sends notifications about problems
 
-# Services of SQL Server 2014
+# Services of SQL Server 2016
 *	Distributed Transaction Coordinator (MSDTC)
 	*	Manages database transactions
 	*	Supports transactions that span multiple databases
@@ -220,106 +220,6 @@
 <!-- attr: { class:'slide-section' } -->
 # Moving a Database by Detaching and Attaching
 ## Live Demo
-
-<!-- section start -->
-<!-- attr: {id: 'mysql-server', class: 'slide-section'} -->
-# MySQL Server
-## Overview
-
-# What is MySQL?
-*	MySQL Database Server
-	*	MySQL is `open-source` DB server (RDBMS)
-	*	World's most-popular open-source database
-	*	Mostly used to power web sites and small apps
-	*	Supports concurrency, `transactions` (full ACID)
-	*	Stored procedures, views, triggers, partitioning
-	*	Support `clustering` and replication
-*	Free and paid editions
-	*	Community Server, Enterprise, Cluster CGE
-
-# MySQL Community Server
-*	MySQL Community Server
-	*	The free open-source MySQL edition
-	*	Windows:
-		*	Pre-packaged installer available from [MySQL](http://dev.mysql.com/downloads/mysql/)
-	*	Linux:
-		*	Available through the package managers
-			*	`apt-get install mysql-server`
-			*	`yum install mysql-server`
-
-# MySQL Storage Engines
-*	`MyISAM`
-	*	Fast, non-transactional, unreliable, forget it!
-*	`InnoDB`
-	*	Fully ACID transactional, highly reliable
-	*	Recommended for most applications
-*	`Memory`
-	*	Ultra-fast, non-persistent
-*	`CSV`
-	*	Stores the data in CSV (text) files
-*	[More info](https://dev.mysql.com/doc/refman/5.1/en/storage-engines.html)
-
-<!-- attr: {hasScriptWrapper: true} -->
-# MySQL Services, Start, Stop
-*	MySQL Services
-	*	Just one service (in Windows): `MySQL56`
-	*	Starting: `net start MySQL56`
-	*	Stopping: `net stop MySQL56`
-<img class="slide-image" src="imgs/mysql-task.png" style="left:2%; bottom:5%;" />
-
-<!-- attr: { class: 'slide-section' } -->
-# MySQL Administration Tools
-## The Console Client, MySQL Workbench, phpMyAdmin
-
-# Authentication and Login
-*	MySQL uses traditional username / password authentication
-	*	The administrator's user is: `root`
-	*	The default password is specified during the installation process
-*	Connecting through the console client
-	*	`mysql –u root -p`
-	*	`use world;`
-	*	`select * from city limit 100;`
-
-<!-- attr: { class: 'slide-section' } -->
-# MySQL Console Client
-## Live Demo
-
-<!-- attr: { class: 'slide-section' } -->
-# MySQL Tools
-## MySQL WorkBench, phpMyAdmin Tool
-
-# MySQL Workbench
-*	MySQL Workbench is free open-source GUI administration tool for MySQL
-	*	Execute SQL queries
-	*	Browse / edit table data
-	*	Create / modify relational schema
-	*	DB design  (E/R diagrams)
-		*	Forward / reverse engineering
-	*	Visualize query plan
-
-<!-- attr: { class: 'slide-section' } -->
-# MySQL Workbench
-## Live Demo
-
-<!-- attr: {hasScriptWrapper: true} -->
-# phpMyAdmin Tool
-*	phpMyAdmin Tool
-	*	Web-based open-source MySQL admin tool
-<img class="slide-image" src="imgs/php-my-admin.png" style="left:2%; bottom:5%;" />
-
-<!-- attr: { class: 'slide-section' } -->
-# phpMyAdmin
-## Live Demo
-
-# Moving a MySQL Database
-*	To move MySQL database to another location
-	*	Use SQL export / SQL import feature
-*	Export a database to SQL script
-	*	MySQL Workbench > Server Administration > Data Export > Export to Self-Contained File
-	*	phpMyAdmin > Export > SQL
-*	Import a database from SQL script
-	*	Just execute the script in Workbench
-	*	phpMyAdmin > Import > SQL
 
 <!-- section start -->
 <!-- attr: {id: 'questions', class: 'slide-section', hasScriptWrapper: true} -->

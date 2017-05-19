@@ -21,7 +21,6 @@
 - Creating Relationships between the Tables
   - One-to-many, Many-to-many, One-to-one
 - Naming Conventions
-- Data Modelling in MySQL Workbench
 
 <!-- section start -->
 <!-- attr: {id: 'data-modelling', class: 'slide-section'} -->
