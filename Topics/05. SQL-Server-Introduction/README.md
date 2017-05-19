@@ -2,7 +2,7 @@
 
 <!-- attr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
 
-# Introduction to SQL Server and MySQL
+# Introduction to SQL Server
 <div class="signature">
     <p class="signature-course">Databases</p>
     <p class="signature-initiative">Telerik Software Academy</p>
@@ -20,16 +20,6 @@
 	*	Moving a SQL Server Database
 		*	Through Backups and Restore
 		*	By Detaching and Attaching
-
-# Table of Contents
-*	`MySQL` – Intro
-	*	MySQL Community Server
-	*	MySQL Services, Start, Stop
-	*	Authentication and Login
-	*	MySQL Console Client
-	*	MySQL Workbench
-	*	phpMyAdmin Tool
-	*	Moving a MySQL Database
 
 <!-- section start -->
 <!-- attr: {id: 'ms-sql-server', class: 'slide-section'} -->
