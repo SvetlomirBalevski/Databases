@@ -32,10 +32,9 @@
 	*	Powerful, trustworthy, easy-to-use DB server
 *	The most recent version is SQL Server 2016
 *	Works only on Windows systems
-*	A free distributions exists 
-		- SQL Server Express
-		- SQL Server Developer Edition
-	*	http://www.microsoft.com/express/database/
+*	A free distributions exists
+		- [SQL Server Developer Edition](https://www.microsoft.com/en-us/sql-server/application-development)
+		- [SQL developer tools](https://www.microsoft.com/en-us/sql-server/developer-tools)
 
 <!-- section start -->
 <!-- attr: {id: 'sql-server-services', class: 'slide-section'} -->
