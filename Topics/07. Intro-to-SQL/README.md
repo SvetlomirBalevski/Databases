@@ -3,7 +3,7 @@
 <!-- attr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
 
 # Structured Query Language (SQL)
-##  SQL Intro (MS SQL Server and MySQL)
+##  SQL Intro (MS SQL Server)
 <div class="signature">
     <p class="signature-course">Databases</p>
     <p class="signature-initiative">Telerik Software Academy</p>
@@ -31,7 +31,6 @@
 *	Inserting Data
 *	Updating Data
 *	Deleting Data
-*	MySQL Extensions to Standard SQL
 
 <!-- section start -->
 <!-- attr: {id: 'sql', class: 'slide-section'} -->
@@ -648,56 +647,6 @@ FROM Employees e
   JOIN Departments d
     ON e.DepartmentID = d.DepartmentID
 WHERE d.Name = 'Sales'
-```
-
-<!-- section start -->
-<!-- attr: {id:'mysql-extensions', class:'slide-section'} -->
-# SQL Syntax in MySQL
-## MySQL Extensions to Standard SQL
-
-<!-- attr: { style: 'font-size: 0.8em' } -->
-# SQL Syntax in MySQL
-*	Specific SQL syntax for paging
-```sql
-SELECT * FROM city LIMIT 100, 10
-```
-*	Commands for retrieving database metadata
-```sql
-SHOW DATABASES
-```
-```sql
-USE &lt;database>
-```
-```sql
-SHOW TABLES
-```
-*	Database table maintenance commands
-```sql
-CHECK TABLE &lt;table> / REPAIR TABLE &lt;table>
-```
-```sql
-OPTIMIZE TABLE &lt;table>
-```
-
-<!-- attr: { style: 'font-size: 0.8em' } -->
-# SQL Syntax in MySQL
-*	Show table schema
-```sql
-DESCRIBE &lt;table_name>
-```
-*	Replace data (delete + insert)
-```sql
-REPLACE INTO City(ID, Name, CountryCode, District, Population)
-VALUES(100000, 'Kaspichan', 'BG', 'Shoumen', 3300);
-```
-*	Regular expression matching
-```sql
-SELECT '0888123456' REGEXP '[0-9]+'
-```
-*	Enumerations as column types
-```sql
-CREATE TABLE Shirts (Name VARCHAR(20),
-Size ENUM('XS', 'S', 'M', 'L', 'XL'))
 ```
 
 <!-- section start -->

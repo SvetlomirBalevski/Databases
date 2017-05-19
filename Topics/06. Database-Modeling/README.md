@@ -3,7 +3,7 @@
 <!-- attr: {id: 'title', class: 'slide-title', hasScriptWrapper: true} -->
 
 # Database Modelling
-## Creating E/R Diagrams with SQL Server Management Studio and MySQL Workbench
+## Creating E/R Diagrams with SQL Server Management Studio
 <div class="signature">
     <p class="signature-course">Databases</p>
     <p class="signature-initiative">Telerik Software Academy</p>
@@ -343,23 +343,6 @@
 
 <!-- attr: { class: 'slide-section' } -->
 # Database Modelling with SQL Server Management Studio
-## Live Demo
-
-<!-- section start -->
-<!-- attr: {id: 'mysql-diagrams', class: 'slide-section'} -->
-# Data Modelling in MySQL
-## Creating E/R Diagrams with MySQL Workbench
-
-# E/R Diagrams in MySQL Workbench
-- MySQL Workbench supports database schema design (E/R diagrams)
-  - Can `reverse engineer` an existing database
-  - Can `forward engineer` the diagram into SQL script / existing / new database
-  - Can `synchronize schema changes` with existing database
-  - User-unfriendly UI but  better than nothing
-	  - Edit tables, relationships, indices, triggers, …
-
-<!-- attr: { class: 'slide-section' } -->
-# Data Modeling in MySQL
 ## Live Demo
 
 <!-- section start -->
