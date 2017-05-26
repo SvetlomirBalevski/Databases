@@ -13,9 +13,5 @@
 1.	Create a database NW and execute the script in it to create the database and populate table data.
 1.	Detatch the database NW and attach it on another computer in the training lab
 	*	In case of name collision, preliminary rename the database.
-1.	Download and install MySQL Community Server  + MySQL Workbench + the sample databases.
-1.	Export the MySQL sample database "`world`" as SQL script.
-1.	Modify the script and execute it to restore the database world as "`worldNew`".
-1.	Connect through the MySQL console client and list the first 20 tons from the database "`worldNew`".
 
 #### As a result of your homework provide screenshots
